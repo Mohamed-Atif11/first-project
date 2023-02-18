@@ -1,0 +1,664 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+/* ال div الاساسي */
+.conter{
+    position:relative;
+    width: 100%;
+    height: 90vh;
+    overflow: hidden;
+}
+
+/* cover */
+
+.cover{
+    background-image: cover;
+}
+
+/* logo */
+.logo{
+    position: absolute;
+    top: 2.5em;
+    left: 12em;
+}
+
+.logo a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.logo span{
+    color: rgb(193, 9, 9);
+}
+
+/* nav */
+.nav-li {
+    position: absolute;
+    list-style-type: none;
+    display: inline-block;
+    top: 1.2em;
+    left: 25em;
+    color: white;
+    font-size: 17px;
+}
+.nav-li ul li{
+    display: inline-block;
+    padding: 1.3em;
+    font-weight: bold;
+    font-family: sans-serif;
+    color:white;
+    transition: .5s all linear;
+}
+.nav-li ul li:hover{
+    color: brown;
+    font-size:17px;
+}
+/* Contact */
+.contact h2 {
+    position: absolute;
+    color: white;
+    top: 3em;
+    right: 27em;
+    font-size: 15px;
+    transition: all 0.4s ease 0s;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.contact h2:hover{
+    color: brown;
+}
+
+
+/* button in nav  */
+.button{
+    position:absolute;
+    top: 1em;
+    right: 3em;
+}
+.button input[type="button"]{
+    position: absolute;
+    right: 9em;
+    top: 1.3em;
+    width: 12em;
+    height: 3em;
+    background-color: rgb(185, 28, 28);
+    color: white;
+    cursor: grab;
+    font-family: cursive;
+    border: none;
+    transition: 1s all linear;
+}
+.button input[type="button"]:hover{
+   background-color: rgba(0, 0, 0, 0.647);
+
+}
+/* info-right  */
+.info-right{
+    position: absolute;
+    color: white;
+    width: 50em;
+    height: 19em;
+    top: 10em;
+    left: 13em;
+}
+.info-right h4{
+    position: absolute;
+    top: 6em;
+    left: 0em;
+    font-family: SANS-SERIF;
+}
+.info-right h1{
+    position: absolute;
+    top: 3em;
+    left: 0em;  
+    font-size: 45px;
+    font-family: sans-serif;
+}
+.info-right input[type="button"]{
+    position: absolute;
+    top: 15em;
+    left: 0em;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    width: 9em;
+    height: 2.5em;
+    font-size: 19px;
+    font-family: cursive;
+    transition: 1.5s all;
+}
+.info-right input[type="button"]:hover{
+    border: none;
+    background-color: rgb(185, 28, 28);
+  
+}
+/* info  */
+.info{
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    overflow: hidden;
+    
+}
+.about-img{
+    position:relative;
+}
+.about-img img{
+    position: absolute;
+    top: 5em;
+    right: 6em;
+    width: 37em;
+    height: 24em;
+}
+.info-1{
+    position: absolute;
+    width: 30em;
+    height: 90vh;
+    top: 4em;
+    left: 13em;
+    font-family: sans-serif;
+}
+.info-1 h5{
+    position: absolute;
+    opacity:40%;
+}
+.info-1 h1{
+    position:absolute;
+    top: 1em;
+    opacity: 80%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 27px;
+}
+.info-1 h3{
+    position: absolute;
+    top: 7em;
+    opacity: 40%;
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 24px;  
+  
+}
+.info-1 h4{
+    position: absolute;
+    top: 13em;
+    opacity: 40%;
+    font-size: 17px; 
+    font-weight: normal;
+    line-height: 24px;  
+}
+/* team info */
+.chefs {
+    position: relative;
+    width: 100%;
+    height: 115vh;
+    background-color: rgba(203, 200, 200, 0.133);
+}
+.chefs h3{
+    position: absolute;
+    left: 23em;
+    top: 1em;
+    font-size: 28px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    opacity: 70%;
+    transition: 2s all ;
+}
+.chefs h3:hover{
+    border-bottom: 1px solid blueviolet;
+    cursor:grab;
+    opacity: 100%;
+}
+.chefs h5 {
+    position: absolute;
+    left: 66.5em;
+    top: 8em;
+    font-size: 10px;
+    font-family: cursive;
+    opacity: 70%;
+}
+/* img 1 */
+.team-img-1 img{
+    position: absolute;
+    width: 20em;
+    left: 10em;
+    top: 9em;
+    transition: 1s all;
+}
+.team-img-1 img:hover{
+    width: 21em;
+    border-top-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    cursor: pointer;
+}
+
+.team-img-1 h2{
+    position: absolute;
+    left: 10em;
+    top: 27.5em;
+    font-size: 24px;
+    font-family: monospace;
+    opacity: 80%;
+}
+.team-img-1 h4{
+    position: absolute;
+    left: 18.5em;
+    top: 50em;
+    font-size: 14px;
+    font-family: cursive;
+    opacity: 50%;
+
+}
+/* img 2 */
+.team-img-2 img {
+    position: absolute;
+    width: 20em;
+    left: 36em;
+    top: 9em;
+    transition: 1s all;
+}
+.team-img-2 img:hover{
+    width: 21em;
+    border-top-right-radius:5%;
+    border-bottom-left-radius:5%;
+    cursor: pointer;
+}
+
+.team-img-2 h2 {
+    position: absolute;
+    left: 27em;
+    top: 27.5em;
+    font-size: 24px;
+    font-family: monospace;
+    opacity: 80%;
+}
+.team-img-2 h4 {
+    position: absolute;
+    left: 47.5em;
+    top: 50em;
+    font-size: 14px;
+    font-family: cursive;
+    opacity: 50%;
+}
+/* img 3 */
+.team-img-3 img {
+    position: absolute;
+    width: 20em;
+    left: 62em;
+    top: 9em;
+    border: none;
+    transition: 1s all;
+}
+.team-img-3 img:hover{
+    width: 21em;
+    border-top-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    cursor: pointer;
+}
+
+.team-img-3 h2 {
+    position: absolute;
+    left: 44em;
+    top: 27.5em;
+    font-size: 24px;
+    font-family: monospace;
+    opacity: 80%;
+}
+.team-img-3 h4 {
+    position: absolute;
+    left: 77em;
+    top: 50em;
+    font-size: 14px;
+    font-family: cursive;
+    opacity: 50%;
+}
+/* menus */
+.menus {
+    position: relative;
+    width: 100%;
+    height: 112vh;
+    overflow: hidden;
+}
+.x2{
+    position: absolute;
+    width: 100%;
+}
+.x2 h3{
+    position: absolute;
+    left: 24em;
+    top: 2em;
+    font-size: 28px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    opacity: 70%;
+    border-bottom: none;
+    transition: 1s all linear;
+}
+.x2 h3:hover{
+    border-bottom: 1px solid blueviolet;
+    cursor:grab;
+    opacity: 100%;
+}
+.x2 h5 {
+    position: absolute;
+    left: 69em;
+    top: 11em;
+    font-size: 10px;
+    font-family: cursive;
+    opacity: 70%;
+}
+/* menus img */
+.menus-img{
+    position:absolute;
+}
+
+.one{
+    position: absolute;
+    width: 23em;
+    
+}
+.one img{
+    position: absolute;
+    width: 30em;
+    top: 10em;
+    transition: 1s all;
+}
+.one img:hover{
+    width: 33em;
+    cursor:-webkit-zoom-in;
+    
+}
+.one-info{
+    position: absolute;
+    width: 30em;
+    height: 18ch;
+    top: 21em;
+    left: 0em;
+    cursor: pointer;
+    transition: 1s all;
+}
+.one-info:hover{
+    background-color: rgba(0, 0, 0, 0.482);
+}
+.one-info h3 {
+    position: absolute;
+    top: 2em;
+    left: 6em;
+    width: 14em;
+    color: transparent;
+    font-family: math;
+    transition: 1s all linear;
+}
+.one-info h3:hover{
+    color: rgb(255, 255, 255);
+}
+/* second img */
+.second{
+    position: absolute;
+    width: 30em;
+    top: 10em;
+}
+.second img{ 
+    position: absolute;
+    width: 30em;
+    left: 30em;
+    transition: 1s all;
+}
+.second img:hover{
+    width: 33em;
+    cursor:-webkit-zoom-in;
+
+}
+.second-info{
+    position: absolute;
+    width: 30em;
+    height: 18ch;
+    top: 11em;
+    left: 30em;
+    transition: 1s all;
+}
+.second-info:hover{
+    background-color: rgba(0, 0, 0, 0.482);
+    cursor: pointer;
+}
+.second-info h3 {
+    position: absolute;
+    top: 2em;
+    left: 6em;
+    width: 14em;
+    color: transparent;
+    font-family: math;
+    transition: 1s all linear;
+}
+.second-info h3:hover{
+    color: rgb(255, 255, 255);
+}
+/* Third img */
+.Third{
+    position: absolute;
+    width: 30em;
+    top: 10em;
+}
+.Third img {
+    position: absolute;
+    width: 35em;
+    left: 60em;
+    transition: 1s all;
+}
+.Third img:hover{
+    width: 37em;
+    cursor:-webkit-zoom-in;
+    
+}
+.Third-info {
+    position: absolute;
+    width: 35em;
+    height: 18ch;
+    top: 11em;
+    left: 60em;
+    transition: 1s all;
+}
+.Third-info:hover{
+    background-color: rgba(0, 0, 0, 0.482);
+    cursor: pointer;
+}
+.Third-info h3 {
+    position: absolute;
+    top: 2em;
+    left: 9em;
+    width: 14em;
+    color: transparent;
+    font-family: math;
+    transition: 1s all linear;
+}
+.Third-info h3:hover{
+    color: rgb(255, 255, 255);
+}
+/* fourth */
+.fourth{
+    position: absolute;
+    width: 23em;
+}
+.fourth img{
+    position: absolute;
+    width: 30em;
+    top: 30em;
+    transition: 1s all;
+}
+.fourth img:hover{
+    width: 33em;
+    cursor:-webkit-zoom-in;
+   
+}
+.fourth-info{
+    position: absolute;
+    width: 30em;
+    height: 18ch;
+    top: 41em;
+    left: 0em;
+    transition: 1s all;
+}
+.fourth-info:hover{
+    background-color: rgba(0, 0, 0, 0.482);
+    cursor: pointer;
+}
+.fourth-info h3 {
+    position: absolute;
+    top: 2em;
+    left: 6em;
+    width: 14em;
+    color: transparent;
+    font-family: math;
+    transition: 1s all linear;
+}
+.fourth-info h3:hover{
+    color: rgb(255, 255, 255);
+}
+/* Fifth */
+.Fifth{
+    position: absolute;
+    width: 23em;
+}
+.Fifth img{
+    position: absolute;
+    width: 30em;
+    top: 30em;
+    left: 30em;
+    transition: 1s all;
+}
+.Fifth img:hover{
+    width: 33em;
+    cursor:-webkit-zoom-in;
+}
+.Fifth-info{
+    position: absolute;
+    width: 30em;
+    height: 18ch;
+    top: 41em;
+    left: 30em;
+    transition: 1s all;
+}
+.Fifth-info:hover{
+    background-color: rgba(0, 0, 0, 0.482);
+    cursor: pointer;
+}
+.Fifth-info h3 {
+    position: absolute;
+    top: 2em;
+    left: 6em;
+    width: 14em;
+    color: transparent;
+    font-family: math;
+    transition: 1s all linear;
+}
+.Fifth-info h3:hover{
+    color: rgb(255, 255, 255);
+}
+/* six-img */
+.six{
+    position: absolute;
+    width: 30em;
+    top: 10em;
+}
+.six img{ 
+    position: absolute;
+    width: 35em;
+    left: 60em;
+    top: 20em;
+    transition: 1s all ;
+}
+.six img:hover{
+    width: 37em;
+    cursor:-webkit-zoom-in;
+}
+.six-info{
+    position: absolute;
+    width: 30em;
+    height: 18ch;
+    top: 31em;
+    left: 60em;
+    transition: 1s all;
+}
+.six-info:hover{
+    background-color: rgba(0, 0, 0, 0.482);
+    cursor: pointer;
+}
+.six-info h3 {
+    position: absolute;
+    top: 2em;
+    left: 6em;
+    width: 14em;
+    color: transparent;
+    font-family: math;
+    transition: 1s all linear;
+}
+.six-info h3:hover{
+    color: rgb(255, 255, 255);
+}
+/* slider */
+.slider{
+    position: relative;
+    width: 100%;
+    height: 53vh;
+    overflow: hidden;
+}
+.slider img{
+    background-image: cover;
+    filter: brightness(0.4);
+    transition: 1s all linear;
+}
+.slider-1 h2{
+    position: absolute;
+    top: 2em;
+    left: 23.5em;
+    color: white;
+    font-family: monospace;
+    font-size: 2em;
+    border: none;
+    background: none;
+    transition: 2s all;
+    width: 7em;
+    text-align: center;
+    opacity: 70%;
+    cursor: pointer;
+}
+.slider-1 h2:hover{
+    background-color: transparent;
+    border-bottom:2px solid rgb(19, 194, 206);
+}
+.slider-1 h3{
+    position: absolute;
+    color: white;
+    font-family: monospace;
+    top: 9em;
+    left: 22em;
+    font-size: large;
+    opacity: 70%;
+}
+.slider-1 h4{
+    position: absolute;
+    color: white;
+    font-family: monospace;
+    top: 10.5em;
+    left: 31em;
+    font-size: large;
+    opacity: 70%;
+}
+.slider-1 p{
+    position: absolute;
+    color: white;
+    top: 10em;
+    left: 25.5em;
+    font-family: ui-monospace;
+    font-size: 24px;
+    opacity: 70%;
+    cursor: pointer;
+
+    transition: 1s all;
+}
+.slider-1 p:hover{
+    border-bottom:2px solid rgb(19, 194, 206);
+}
+/* end */
+

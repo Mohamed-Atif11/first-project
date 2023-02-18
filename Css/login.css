@@ -1,0 +1,161 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.login{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right ,rgba(36, 223, 226, 0.715),rgba(88, 72, 206, 0.549),rgba(46, 77, 161, 0.781),rgba(154, 34, 206, 0.758));
+    overflow: hidden;
+    background-color: rgba(16, 63, 72, 0.777);
+}
+.Logo{
+    position: absolute;
+    top: 2.5em;
+    left: 12em;
+
+}
+.Logo a{
+    position: absolute;
+    left: -4em;
+    width: 8em;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+.Logo span{
+    color: rgb(193, 9, 9);
+}
+/* form */
+.form{
+    position: absolute;
+    top: 7em;
+    right: 35em;
+    width: 25em;
+    height: 30em;
+    background-color:#fffcfdcd;
+    color: white;
+    border-radius: 20px;
+}
+.form h2{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    left: 5.6em;
+    top: 1em;
+    font-size: 28px;
+    font-family: monospace;
+}
+.name{
+    position: absolute;
+    color: rgb(12, 12, 12);
+    opacity: 80%;
+    top: 6em;
+    left: 5em;
+    font-weight: bold;
+    
+}
+.form input[type="text"]{
+    position: absolute;
+    outline:none;
+    left: 6em;
+    top: 9.3em;
+    width: 20em;
+    height: 2em;
+    border:none;
+    border-bottom: 2px solid #1386ad;  
+    background-color:transparent;
+    color:#605b5bd7;
+}
+.form input[type="text"]:focus{
+    outline:none;
+    font-family: cursive;
+    color:#070707c2;
+    border:none;
+    border-bottom: 2px solid #58525bc2;  
+}
+/*  */
+.name-2{
+    position: absolute;
+    color: rgb(12, 12, 12);
+    opacity: 80%;
+    top: 12em;
+    left:5em;
+    font-weight: bold;
+}
+.form-2 input[type="password"]{
+    position: absolute;
+    outline:none;
+    left: 6em;
+    top: 17em;
+    width: 20em;
+    height: 2em;
+    border:none;
+    border-bottom: 2px solid #1386ad;  
+    background-color:transparent;
+    color:#605b5bd7;
+}
+.form-2 input[type="password"]:focus{
+    outline:none;
+    color:#070707c2;
+    border:none;
+    border-bottom: 2px solid #58525bc2;  
+}
+.form-2 p{
+    position: absolute;
+    top: 17em;
+    left: 14em;
+    opacity: 70%;
+    color: black;
+    font-family: cursive;
+    transition: 1s all;
+}
+.form-2 p:hover{
+    opacity: 100%;
+    cursor: pointer;
+}
+.form-2 input[type="button"]{
+    position: absolute;
+    background-image: linear-gradient(to right ,rgba(36, 223, 226, 0.715),rgba(88, 72, 206, 0.549),rgba(46, 77, 161, 0.781),rgba(183, 29, 239, 0.825));
+    color: rgb(255, 255, 255);
+    top: 25em;
+    left: 3em;
+    width: 24em;
+    height: 6vh;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    transition: 2s all linear;
+}
+.form-2 input[type="button"]:hover{
+    cursor:progress;
+   background-image: linear-gradient(to top ,rgba(36, 223, 226, 0.715),rgba(88, 72, 206, 0.549),rgba(46, 77, 161, 0.781),rgba(183, 29, 239, 0.825));
+
+}
+.owner p{
+    position: absolute;
+    bottom:4em;
+    left:10em;
+    color: black;
+    font-weight:bold;
+    opacity: 70%;
+}
+.owner h4{
+    position: absolute;
+    bottom: 2em;
+    left: 9em;
+    color: black;
+    opacity: 70%;
+    font-family:cursive;
+    cursor: pointer;
+    border-bottom: none;
+    transition: 1s all;
+}
+.owner h4:hover{
+    opacity: 100%;
+    cursor:pointer;
+    border-bottom: 2px solid #1386ad;  
+}
