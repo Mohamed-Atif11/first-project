@@ -376,9 +376,6 @@
     top: 21em;
     left: 0em;
     cursor: pointer;
-    transition: 1s all;
-}
-.one-info:hover{
     background-color: rgba(0, 0, 0, 0.482);
 }
 .one-info h3 {
@@ -388,11 +385,9 @@
     width: 14em;
     color: transparent;
     font-family: math;
-    transition: 1s all linear;
-}
-.one-info h3:hover{
     color: rgb(255, 255, 255);
 }
+
 /* second img */
 .second{
     position: absolute;
@@ -491,11 +486,11 @@
     cursor:-webkit-zoom-in;
    
 }
-.fourth-info{
+.fourth-info {
     position: absolute;
     width: 30em;
     height: 18ch;
-    top: 41em;
+    top: 36.4em;
     left: 0em;
     transition: 1s all;
 }
@@ -531,11 +526,11 @@
     width: 33em;
     cursor:-webkit-zoom-in;
 }
-.Fifth-info{
+.Fifth-info {
     position: absolute;
     width: 30em;
     height: 18ch;
-    top: 41em;
+    top: 36.4em;
     left: 30em;
     transition: 1s all;
 }
@@ -572,11 +567,11 @@
     width: 37em;
     cursor:-webkit-zoom-in;
 }
-.six-info{
+.six-info {
     position: absolute;
     width: 30em;
     height: 18ch;
-    top: 31em;
+    top: 26.4em;
     left: 60em;
     transition: 1s all;
 }
